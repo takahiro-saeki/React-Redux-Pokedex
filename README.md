@@ -1,6 +1,7 @@
 # React-Redux-Pokedex
 
 ## USAGE
+
 | command               | description                |
 |:----------------------|:---------------------------|
 | `$ yarn`              | installation               |
@@ -9,4 +10,3 @@
 | `$ yarn test`         | test                       |
 | `$ yarn flow`         | flow                       |
 | `$ yarn flow-coverage`| to render coverage of flow.|
-
