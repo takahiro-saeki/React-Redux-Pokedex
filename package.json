@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-pokedex",
+  "version": "0.0.1",
+  "description": "This is example of Pokedex with React-Redux with Redux-saga.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takahiro-saeki/React-Redux-Pokedex.git"
+  },
+  "author": "takahiro-saeki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takahiro-saeki/React-Redux-Pokedex/issues"
+  },
+  "homepage": "https://github.com/takahiro-saeki/React-Redux-Pokedex#readme"
+}
