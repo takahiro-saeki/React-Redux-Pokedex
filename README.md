@@ -3,7 +3,7 @@
 ## USAGE
 | command              | description                |
 |:---------------------|:---------------------------|
-| $ yarn               | installation               |
+| `$ yarn `            | installation               |
 | $ yarn start         | server start               |
 | $ yarn build         | build                      |
 | $ yarn test          | test                       |
