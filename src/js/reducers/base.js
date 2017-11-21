@@ -6,7 +6,11 @@ const defaultParam = {
 
 const base = (state = defaultParam, action) => {
   switch (action.type) {
-    case 'base': return state 
+    case 'BASE': return state;
+    case 'INIT': {
+      const merge = Object.assign({}, state, action.param)
+      return merge
+    }
     default:
       return state;
   }

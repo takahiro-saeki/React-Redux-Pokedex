@@ -38,6 +38,7 @@
     "babel-preset-es2017": "^6.24.1",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
+    "pokesprite": "^1.4.7",
     "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",

@@ -5874,6 +5874,10 @@ podda@^1.2.2:
     babel-runtime "^6.11.6"
     immutable "^3.8.1"
 
+pokesprite@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/pokesprite/-/pokesprite-1.4.7.tgz#547a5a6672072dfc74da810cf85f76d664bdde65"
+
 portfinder@^1.0.9:
   version "1.0.13"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.13.tgz#bb32ecd87c27104ae6ee44b5a3ccbf0ebb1aede9"
