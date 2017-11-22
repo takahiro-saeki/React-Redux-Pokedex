@@ -2,11 +2,15 @@ import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from 'actions';
-import { process_dom } from 'pokesprite';
+import PokeList from 'components/PokeList';
+import uuid from 'uuid';
+import PokeListContainer from './style';
 
 const App = ({ base }) => (
-  <div onClick={() => base()}>
-    <div>test</div>
+  <div>
+    <PokeListContainer>
+      {base.map(item => <PokeList name={item.name} url={item.image_url} key={uuid.v4()} />)}
+    </PokeListContainer>
   </div>
 )
 

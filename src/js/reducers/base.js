@@ -1,15 +1,24 @@
 import actions from 'actions';
+import PATH from 'PATH';
 
-const defaultParam = {
-  sample: 'test'
-};
+const defaultParam = [];
 
 const base = (state = defaultParam, action) => {
   switch (action.type) {
-    case 'BASE': return state;
     case 'INIT': {
-      const merge = Object.assign({}, state, action.param)
-      return merge
+      const monsterData = [];
+      for (let item of action.param.pokemon_entries) {
+        if (monsterData.length > 19) {
+          break;
+        }
+        const optimize = {
+          name: item.pokemon_species.name,
+          image_url: PATH.IMAGE(item.entry_number)
+        };
+        monsterData.push(optimize);
+      }
+
+      return monsterData;
     }
     default:
       return state;
