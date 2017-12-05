@@ -8,7 +8,7 @@ const base = (state = defaultParam, action) => {
     case 'INIT': {
       const monsterData = [];
       for (let item of action.param.pokemon_entries) {
-        if (monsterData.length > 19) {
+        if (monsterData.length > 700) {
           break;
         }
         const optimize = {
